@@ -1,0 +1,214 @@
+body{
+
+    background-color: peachpuff;
+}
+
+h2{
+    color: rgb(105, 113, 116);
+    text-align: center;
+}
+
+
+#nav{
+
+    text-decoration: none;
+
+    background-color: plum;
+    color-adjust: red;
+    padding:1rem;
+    font-size: 2rem;
+}
+
+nav a:hover{
+
+    color: skyblue;
+
+}
+
+img{
+    width: 100%;
+    
+    display: inline-block;
+    
+}
+
+.wrapper{
+    
+    gap: 10%;
+
+display:grid;
+
+grid-template-columns: 33vw 33vw 33vw;
+column-gap: 1rem;
+row-gap: 1rem;
+
+    
+}
+
+.wrapper div{
+    border: solid 2px rgb(138, 138, 138);
+    background-color: rgb(192, 192, 192);
+ 
+    
+    display: inline-block;
+    margin: 40;
+}
+
+
+
+
+.flex{
+display: flex;
+flex-direction:row;
+min-height: 70vh;
+
+ 
+}
+.flex img{
+    width: 70%;
+
+}
+form{
+    
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color:rgb(108, 106, 223);
+}
+
+.hello{
+
+    gap: 10%;
+
+    display:grid;
+    
+    grid-template-columns: 33vw 33vw 33vw;
+    column-gap: 1rem;
+    row-gap: 1rem;    
+
+
+}
+
+.hello div {
+
+  
+    border: solid 2px rgb(32, 91, 168);
+    background-color: rgb(226, 124, 124);
+   min-width: none;
+
+    display: inline-block;
+    margin: 40;
+
+}
+
+.okay {
+
+    gap: 10%;
+
+    display:grid;
+    
+    grid-template-columns: 33vw 33vw 33vw;
+    column-gap: 1rem;
+    row-gap: 1rem;
+       
+
+
+}
+
+.okay div {
+
+    border: solid 2px rgb(219, 96, 209);
+    background-color: rgb(155, 132, 241);
+    min-width: none;
+    
+    display: inline-block;
+    margin: 20;
+
+}
+
+.out {
+
+
+    gap: 10%;
+
+    display:grid;
+    
+    grid-template-columns: 33vw 33vw 33vw;
+    column-gap: 1rem;
+    row-gap: 1rem;
+       
+
+}
+
+.out div {
+
+  
+    border: solid 2px rgb(84, 219, 156);
+    background-color: rgb(245, 110, 20);
+    min-width: none;
+    
+    display: inline-block;
+    margin: 40;
+
+}
+
+
+.in {
+
+    gap: 10%;
+
+    display:grid;
+    
+    grid-template-columns: 33vw 33vw 33vw;
+    column-gap: 1rem;
+    row-gap: 1rem;
+       
+
+}
+
+.in div{
+
+    border: solid 3px rgb(56, 221, 150);
+    background-color: rgb(214, 88, 88);
+    min-width: none;
+    
+    display: inline-block;
+    margin: 40;
+
+}
+
+.info {
+    min-height: 90vh;
+}
+
+footer{
+  position: absolute;
+    width: 100%;
+    background-color: rgb(199, 213, 231);
+    height: 10vh;
+}
+           
+
+div{
+    
+    min-height: 30%;
+}
+
+
+@media (min-width: 400%){
+    div{
+        grid-template-columns: repeat(1,2fr);
+
+    
+        
+    }
+
+}
+@media (min-width: 850%){
+    div{
+        grid-template-columns: repeat(1,2fr);
+        
+    }
+    }
